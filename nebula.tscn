@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3m0jlglyjd8n"]
+
+[ext_resource type="Texture2D" uid="uid://ch4j04qku45bw" path="res://assets/Green_Nebula_06-1024x1024.png" id="1_b3oki"]
+
+[node name="ParallaxLayer" type="ParallaxLayer"]
+
+[node name="NebulaLayer" type="Sprite2D" parent="."]
+position = Vector2(332, 512)
+texture = ExtResource("1_b3oki")
