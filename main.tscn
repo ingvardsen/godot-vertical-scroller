@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://mabklyt1wgm7"]
 
 [ext_resource type="PackedScene" uid="uid://c3bbat2g2ssck" path="res://player.tscn" id="1_5isp3"]
-[ext_resource type="PackedScene" uid="uid://b3m0jlglyjd8n" path="res://nebula.tscn" id="2_31hrw"]
+[ext_resource type="PackedScene" uid="uid://ueac83db2tjk" path="res://background.tscn" id="2_06kiy"]
 
 [node name="Main" type="Node"]
 
-[node name="Background" parent="." instance=ExtResource("2_31hrw")]
+[node name="Background" parent="." instance=ExtResource("2_06kiy")]
 
 [node name="Player" parent="." instance=ExtResource("1_5isp3")]
 position = Vector2(307, 677)

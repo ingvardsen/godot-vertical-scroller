@@ -1,0 +1,1 @@
+https://www.asmaloney.com/2021/02/code/vertical-scrolling-parallax-backgrounds-in-godot/
